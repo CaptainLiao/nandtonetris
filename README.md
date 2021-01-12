@@ -13,8 +13,8 @@
 配套教程请点击：[https://www.nand2tetris.org/](https://www.nand2tetris.org/)。
 
 
-## 公式推导
-关于 Nand 如何推导出 Not/And/Or/Xor，书中没有说明，所以在做 01 目录时，感到无从下手，后来看到[两个公式](https://electronics.stackexchange.com/questions/360361/convert-and-or-gate-to-only-nand-gates)，有助于我们推导：
+## 习题 001
+关于 Nand 如何推导出 Not/And/Or/Xor（做题按照这个顺序），书中没有说明，所以在做 01 目录时，感到无从下手，后来看到[两个公式](https://electronics.stackexchange.com/questions/360361/convert-and-or-gate-to-only-nand-gates)，有助于我们推导：
 ````
 You can use the De Morgan theorems to convert any OR logic to AND and vice-versa:
 
