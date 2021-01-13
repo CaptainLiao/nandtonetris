@@ -13,7 +13,7 @@
 配套教程请点击：[https://www.nand2tetris.org/](https://www.nand2tetris.org/)。
 
 
-## 习题 001
+## 001 节
 关于 Nand 如何推导出 Not/And/Or/Xor（做题按照这个顺序），书中没有说明，所以在做 01 目录时，感到无从下手，后来看到[两个公式](https://electronics.stackexchange.com/questions/360361/convert-and-or-gate-to-only-nand-gates)，有助于我们推导：
 ````
 You can use the De Morgan theorems to convert any OR logic to AND and vice-versa:
@@ -23,4 +23,14 @@ You can use the De Morgan theorems to convert any OR logic to AND and vice-versa
 and
 
 !(A + B) = !A * !B
+````
+
+## 002节
+### 补码
+* 正数补码：即原码
+* 负数补码：符号为不变，其余位取反，最后加 1。即在反码的基础上加 1。
+````
+[+1] = [00000001]原 = [00000001]反 = [00000001]补
+
+[-1] = [10000001]原 = [11111110]反 = [11111111]补
 ````
