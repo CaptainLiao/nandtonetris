@@ -34,3 +34,8 @@ and
 
 [-1] = [10000001]原 = [11111110]反 = [11111111]补
 ````
+
+## 更多
+https://zhongchuyun.gitbooks.io/nand2tetris/content/chapter_3.html
+
+

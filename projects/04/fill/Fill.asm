@@ -12,3 +12,5 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+// if (KBD > 0) goto BLACK
+// else goto WHITE
